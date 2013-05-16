@@ -8,7 +8,7 @@ void setup() {
 void loop()
 {
   Serial.print(ultrasonic.Ranging(CM));
-  Serial.println("cm");    
+  Serial.println("cm");
   delay(100);
 }
 
